@@ -444,7 +444,7 @@
                     </div>
                     <div class="info-item">
                         <span class="info-label">新闻总数</span>
-                        <span class="info-value">279 条</span>
+                        <span class="info-value">332 条</span>
                     </div>
                     <div class="info-item">
                         <span class="info-label">热点新闻</span>
@@ -452,7 +452,7 @@
                     </div>
                     <div class="info-item">
                         <span class="info-label">生成时间</span>
-                        <span class="info-value">12-17 14:23</span>
+                        <span class="info-value">12-17 15:18</span>
                     </div>
                 </div>
             </div>
@@ -465,7 +465,7 @@
                     由 <span class="project-name">雪糕巧克力</span> 生成 ·
                     <a href="https://justme.v0710.top/" target="_blank" class="footer-link">
                         点击查看关于我的一切
-                    </a>"""
+                    </a>
                     <br>
                     <span style="color: #ea580c; font-weight: 500;">
                         发现新版本 4.0.0，当前版本 3.5.0
@@ -519,7 +519,7 @@
                     
                     const link = document.createElement('a');
                     const now = new Date();
-                    const filename = `热点新闻分析_${now.getFullYear()}${String(now.getMonth() + 1).padStart(2, '0')}${String(now.getDate()).padStart(2, '0')}_${String(now.getHours()).padStart(2, '0')}${String(now.getMinutes()).padStart(2, '0')}.png`;
+                    const filename = `TrendRadar_热点新闻分析_${now.getFullYear()}${String(now.getMonth() + 1).padStart(2, '0')}${String(now.getDate()).padStart(2, '0')}_${String(now.getHours()).padStart(2, '0')}${String(now.getMinutes()).padStart(2, '0')}.png`;
                     
                     link.download = filename;
                     link.href = canvas.toDataURL('image/png', 1.0);
@@ -745,7 +745,7 @@
                     
                     // 下载所有图片
                     const now = new Date();
-                    const baseFilename = `热点新闻分析_${now.getFullYear()}${String(now.getMonth() + 1).padStart(2, '0')}${String(now.getDate()).padStart(2, '0')}_${String(now.getHours()).padStart(2, '0')}${String(now.getMinutes()).padStart(2, '0')}`;
+                    const baseFilename = `TrendRadar_热点新闻分析_${now.getFullYear()}${String(now.getMonth() + 1).padStart(2, '0')}${String(now.getDate()).padStart(2, '0')}_${String(now.getHours()).padStart(2, '0')}${String(now.getMinutes()).padStart(2, '0')}`;
                     
                     for (let i = 0; i < images.length; i++) {
                         const link = document.createElement('a');
